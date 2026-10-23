@@ -165,8 +165,11 @@ rutas, vehículos y conductores, luego viajes, y por último incidencias e histo
 
 ## Variables de entorno
 
-El archivo `.env` contiene la SECRET_KEY y las credenciales de la base de datos.
-No se sube al repositorio. Para configurarlo se usa la plantilla `.env.example`.
+## Variables de entorno
+
+El archivo `.env` se incluye en el repositorio, como pide la evaluación, con la
+SECRET_KEY y los datos de conexión a la base de datos de desarrollo. En un
+proyecto real este archivo no se sube; se usa la plantilla `.env.example`.
 
 ## Autor
 
