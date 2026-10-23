@@ -1,0 +1,11 @@
+{% extends "rest_framework/base.html" %}
+{% load static %}
+
+{% block style %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static 'transporte/css/estilo_api.css' %}">
+{% endblock %}
+
+{% block branding %}
+  <a class="navbar-brand" href="{% url 'bienvenida' %}">Sistema de Transporte</a>
+{% endblock %}

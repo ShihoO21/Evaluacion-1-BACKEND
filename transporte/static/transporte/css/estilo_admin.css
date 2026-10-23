@@ -1,0 +1,22 @@
+:root {
+  --primary: #0d6efd;
+  --secondary: #212529;
+  --accent: #ffffff;
+  --header-color: #ffffff;
+  --header-branding-color: #ffffff;
+  --breadcrumbs-bg: #0d6efd;
+  --breadcrumbs-fg: #dbe8ff;
+  --breadcrumbs-link-fg: #ffffff;
+  --link-fg: #0d6efd;
+  --link-hover-color: #0a58ca;
+  --button-bg: #0d6efd;
+  --button-hover-bg: #0b5ed7;
+  --default-button-bg: #0d6efd;
+  --default-button-hover-bg: #0a58ca;
+}
+
+#header { box-shadow: 0 2px 6px rgba(0, 0, 0, .15); }
+.module { border-radius: 8px; overflow: hidden; }
+.button, input[type=submit], input[type=button], .submit-row input {
+  border-radius: 6px;
+}
